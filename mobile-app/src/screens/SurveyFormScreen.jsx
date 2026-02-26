@@ -9,7 +9,7 @@ import { useAppContext } from '../context/AppContext';
 
 // IMPORTANT: Replace with your actual backend IP/URL
 // If testing on physical device, use your computer's local IP
-const API_URL = 'http://192.168.43.251:5000/api';
+const API_URL = 'https://arev-2.onrender.com/api';
 
 const SurveyFormScreen = ({ navigation }) => {
     const { t, user } = useAppContext();
